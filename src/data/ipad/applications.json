@@ -1,0 +1,133 @@
+[
+  {
+    "title": "Классика",
+    "collectionName": "new",
+    "data": [
+      {
+        "name": "Instagram",
+        "category": "social",
+        "icon": "./images/iphoneData/instagram.png",
+        "price": 25,
+        "rating": 24
+      },
+      {
+        "name": "Messenger",
+        "category": "social",
+        "icon": "./images/iphoneData/fb-messenger.png",
+        "price": 400,
+        "rating": 2
+      },
+      {
+        "name": "NBA",
+        "category": "game",
+        "icon": "./images/iphoneData/nba.png",
+        "price": "free",
+        "rating": 88
+      },
+      {
+        "name": "Google maps",
+        "category": "social",
+        "icon": "./images/iphoneData/google-map.png",
+        "price": "free",
+        "rating": 75
+      },
+      {
+        "name": "Roblox",
+        "category": "game",
+        "icon": "./images/iphoneData/roblox.png",
+        "price": 99,
+        "rating": 48
+      },
+      {
+        "name": "Homescapes",
+        "category": "game",
+        "icon": "./images/iphoneData/homescapes.png",
+        "price": 15,
+        "rating": 10
+      }
+    ]
+  },
+  {
+    "title": "Новое и интересное",
+    "collectionName": "classic",
+    "data": [
+      {
+        "name": "Bloons",
+        "category": "game",
+        "icon": "./images/iphoneData/bloons.png",
+        "price": "free",
+        "rating": 12
+      },
+      {
+        "name": "Headsup",
+        "category": "productivity",
+        "icon": "./images/iphoneData/headsup.png",
+        "price": "free",
+        "rating": 88
+      },
+      {
+        "name": "Minecraft",
+        "category": "game",
+        "icon": "./images/iphoneData/minecraft.png",
+        "price": "free",
+        "rating": 10
+      },
+      {
+        "name": "Plague",
+        "category": "game",
+        "icon": "./images/iphoneData/plague.png",
+        "price": 49,
+        "rating": 20
+      },
+      {
+        "name": "Pandora music",
+        "category": "media",
+        "icon": "./images/iphoneData/pandora-music.png",
+        "price": 52,
+        "rating": 50
+      },
+      {
+        "name": "Netflix",
+        "category": "media",
+        "icon": "./images/iphoneData/netflix.png",
+        "price": "free",
+        "rating": 88
+      },
+      {
+        "name": "Tinder",
+        "category": "social",
+        "icon": "./images/iphoneData/tinder.png",
+        "price": "free",
+        "rating": 10
+      },
+      {
+        "name": "Candy crush",
+        "category": "game",
+        "icon": "./images/iphoneData/candy-crush.png",
+        "price": "free",
+        "rating": 12
+      },
+      {
+        "name": "Fornite",
+        "category": "game",
+        "icon": "./images/iphoneData/fortnite.png",
+        "price": "free",
+        "rating": 80
+      },
+      {
+        "name": "Facetune",
+        "category": "game",
+        "icon": "./images/iphoneData/facetune.png",
+        "price": "free",
+        "rating": 24
+      },
+      {
+        "name": "Facetune",
+        "category": "game",
+        "icon": "./images/iphoneData/facetune.png",
+        "price": "free",
+        "rating": 12
+      }
+    ]
+  }
+]

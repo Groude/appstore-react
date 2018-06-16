@@ -1,0 +1,167 @@
+body {
+  background: #314755;
+  background: -webkit-linear-gradient(to right, #26a0da, #26a0da);
+  background: linear-gradient(to right, #26a0da, #26a0da); }
+
+.app {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border: 1px solid #eee;
+  background: #fff;
+  box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.2); }
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto; }
+
+.content__row {
+  display: flex; }
+
+.col--main {
+  flex-basis: 80%;
+  max-width: 80%; }
+
+.carousel {
+  margin-top: 50px; }
+
+.slick-prev:before, .slick-next:before {
+  color: #000; }
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  width: 600px;
+  max-width: 800px;
+  height: 400px;
+  max-height: 400px;
+  padding: 20px 15px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 4px; }
+  .modal__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 3; }
+  .modal__close {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .modal__title {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee; }
+  .modal__content {
+    display: flex;
+    flex-wrap: wrap; }
+
+.ReactModalPortal > div {
+  opacity: 0; }
+
+.ReactModalPortal .ReactModal__Overlay {
+  transition: opacity 200ms ease-in-out; }
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1; }
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0; }
+
+.application {
+  min-width: 70px;
+  max-width: 70px;
+  margin-right: 15px;
+  overflow: hidden; }
+  .application__icon {
+    display: block;
+    border-radius: 22%; }
+  .application__name {
+    margin: 0;
+    margin-top: 5px;
+    font-weight: bold; }
+  .application__price {
+    margin: 0; }
+  .application__category {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.7); }
+
+.banner {
+  margin-right: 2px;
+  margin-left: 2px; }
+
+.banner img {
+  display: block;
+  width: 100%;
+  max-width: 100%; }
+
+.collection {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: hidden; }
+  .collection__app {
+    display: flex; }
+  .collection__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px; }
+  .collection__title {
+    margin: 0; }
+  .collection__button {
+    background: transparent;
+    border: 0;
+    transition: all 300ms linear; }
+    .collection__button:hover {
+      opacity: .7;
+      cursor: pointer; }
+
+.banner-collection {
+  display: flex;
+  flex-basis: 80%;
+  max-width: 80%; }
+
+.sideinfo {
+  flex-basis: 20%;
+  max-width: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  border-left: 1px solid #eee;
+  box-shadow: -5px 0px 10px -2px rgba(0, 0, 0, 0.1); }
+  .sideinfo__list {
+    padding-left: 20px;
+    margin: 0; }
+  .sideinfo__title {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-weight: 400; }
+
+.item__name {
+  display: block;
+  color: #000;
+  text-decoration: none; }
+
+.item__icon {
+  border-radius: 22%; }
+
+.item__category {
+  opacity: .5; }
+
+.switcher {
+  text-align: center; }

@@ -1,0 +1,40 @@
+.sideinfo {
+  flex-basis: 20%;
+  max-width: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-size: 12px;
+
+  border-left: 1px solid #eee;
+  box-shadow: -5px 0px 10px -2px rgba(0, 0, 0, .1);
+
+  &__list {
+    padding-left: 20px;
+    margin: 0;
+  }
+
+  &__title {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+    font-weight: 400;
+  }
+
+}
+
+.item {
+  &__name {
+    display: block;
+    color: #000;
+    text-decoration: none;
+  }
+  &__icon {
+    border-radius: 22%;
+  }
+  &__category {
+    opacity: .5;
+  }
+}
