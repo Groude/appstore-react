@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button, Icon } from 'semantic-ui-react'
 
 import Application from '../Application';
 
@@ -13,12 +14,17 @@ class Collection extends Component {
       <div className="collection">
         <div className="collection__header">
           <h2 className="collection__title">{this.props.title}</h2>
-          <button
+          <Button
             className="collection__button"
+            animated
+            size="mini"
             onClick={() => this.openModal(true)}
-          >
-            См. Все >
-          </button>
+            >
+            <Button.Content visible>См. Все</Button.Content>
+            <Button.Content hidden>
+              <Icon name='right arrow' />
+            </Button.Content>
+          </Button>
         </div>
         <div className="col collection__app">
           {

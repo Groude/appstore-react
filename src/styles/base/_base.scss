@@ -11,17 +11,12 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 
   border: 1px solid #eee;
   background: #fff;
   box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, .2);
-}
-
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
 }
 
 .content {
@@ -32,7 +27,7 @@ body {
 
 .col {
   &--main {
-    flex-basis: 80%;
-    max-width: 80%
+    flex-basis: 85%;
+    max-width: 85%
   }
 }

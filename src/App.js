@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
+import { Container, Icon } from 'semantic-ui-react'
+
 import 'semantic-ui-css/semantic.min.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-
 import './styles/style.css';
+
 import Switcher from './components/Switcher';
 import Iphone from './components/Iphone';
 import Ipad from './components/Ipad';
@@ -75,7 +77,7 @@ class App extends Component {
           className="modal__close"
           onClick={this.closeModal}
         >
-          X
+          <Icon name="close" />
         </button>
         <h2 className="modal__title">{this.state.tempModalTitle}</h2>
         <div className="modal__content">
@@ -84,14 +86,14 @@ class App extends Component {
           }
         </div>
         </Modal>
-        <div className="container">
+        <Container fluid>
           <div className="row">
             <Switcher currentData={this.state.currentData} iphoneHandle={this.iphoneHandle} ipadHandle={this.ipadHandle} />
           </div>
           <div className="row">
             { this.renderData() }
           </div>
-        </div>
+        </Container>
       </div>
     );
   }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
+import { Grid } from 'semantic-ui-react';
 
 import ipadAppData from '../../data/ipad/applications.json';
 import ipadBanners from '../../data/ipad/banners.json';
@@ -42,20 +43,24 @@ class Ipad extends Component {
             }
           </Slider>
         </div>
-        <div className="content__row">
-          <div className="col--main">
+        <Grid Columns={2}>
+          <Grid.Row className="content__row">
+            <Grid.Column width={13}>
+              <div className="col">
+                <CollectionList data={this.state.data} openModal={this.props.openModal} />
+              </div>
+
+              <div className="col">
+                <BannerCollection data={this.state.bannerCollection} />
+              </div>
+            </Grid.Column>
+
+            <Grid.Column width={2}>
+              <SideInfo data={this.state.data} />
+            </Grid.Column>
             
-            <div className="col">
-              <CollectionList data={this.state.data} openModal={this.props.openModal} />
-            </div>
-
-            <div className="col">
-              <BannerCollection data={this.state.bannerCollection} />
-            </div>
-          </div>
-
-          <SideInfo data={this.state.data} />
-        </div>
+          </Grid.Row>
+        </Grid>
       </div>
     );
   }

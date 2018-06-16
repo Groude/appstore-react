@@ -6,7 +6,7 @@ const BannerCollection = (props) => {
   return (
     <div className="banner-collection">
       {
-        props.data.map((banner, index) => <a href="#" className="banner--link" key={index}><Banner image={banner.image}  /></a>)
+        props.data.map((banner, index) => <a className="banner--link" key={index}><Banner image={banner.image}  /></a>)
       }
     </div>
   );

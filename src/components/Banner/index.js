@@ -1,11 +1,12 @@
 import React from 'react';
+import { Image } from 'semantic-ui-react';
 
 const Banner = (props) => {
   return (
     <div className="banner">
-      <img className="banner__image" src={props.image} alt=""/>
+      <Image src={props.image} size='large' />
     </div>
   );
-}
+};
 
 export default Banner;
