@@ -43,7 +43,7 @@ class Ipad extends Component {
             }
           </Slider>
         </div>
-        <Grid Columns={2}>
+        <Grid columns={2}>
           <Grid.Row className="content__row">
             <Grid.Column width={13}>
               <div className="col">
